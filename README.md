@@ -98,8 +98,8 @@ print(a, b, loss)
 
 #plt.plot(x, prediction)
 
-sh.sheet1.update('C1', str(a))
+sh.sheet1.update('A3', str(a))
 
-sh.sheet1.update('C2', str(b))
+sh.sheet1.update('B3', str(b))
 
 sh.sheet1.update('C3', str(loss))
